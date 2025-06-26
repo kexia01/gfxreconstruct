@@ -768,6 +768,17 @@ enum ApiCallId : uint32_t
     ApiCall_vkCmdEndPerTileExecutionQCOM                                                          = MakeApiCallId(ApiFamily_Vulkan, 0x131b),
     ApiCall_vkCmdBindTileMemoryQCOM                                                               = MakeApiCallId(ApiFamily_Vulkan, 0x131c),
     ApiCall_vkCmdEndRendering2EXT                                                                 = MakeApiCallId(ApiFamily_Vulkan, 0x131d),
+    ApiCall_vkCmdBindDescriptorBufferEmbeddedSamplersEXT                                          = MakeApiCallId(ApiFamily_Vulkan, 0x1336),
+    ApiCall_vkCmdBindDescriptorBuffersEXT                                                         = MakeApiCallId(ApiFamily_Vulkan, 0x1337),
+    ApiCall_vkCmdSetDescriptorBufferOffsetsEXT                                                    = MakeApiCallId(ApiFamily_Vulkan, 0x1338),
+    ApiCall_vkGetBufferOpaqueCaptureDescriptorDataEXT                                             = MakeApiCallId(ApiFamily_Vulkan, 0x1339),
+    ApiCall_vkGetDescriptorEXT                                                                    = MakeApiCallId(ApiFamily_Vulkan, 0x133a),
+    ApiCall_vkGetDescriptorSetLayoutBindingOffsetEXT                                              = MakeApiCallId(ApiFamily_Vulkan, 0x133b),
+    ApiCall_vkGetDescriptorSetLayoutSizeEXT                                                       = MakeApiCallId(ApiFamily_Vulkan, 0x133c),
+    ApiCall_vkGetImageOpaqueCaptureDescriptorDataEXT                                              = MakeApiCallId(ApiFamily_Vulkan, 0x133d),
+    ApiCall_vkGetImageViewOpaqueCaptureDescriptorDataEXT                                          = MakeApiCallId(ApiFamily_Vulkan, 0x133e),
+    ApiCall_vkGetSamplerOpaqueCaptureDescriptorDataEXT                                            = MakeApiCallId(ApiFamily_Vulkan, 0x133f),
+    ApiCall_vkGetAccelerationStructureOpaqueCaptureDescriptorDataEXT                              = MakeApiCallId(ApiFamily_Vulkan, 0x1340),
 
     ApiCall_VulkanLast,
 
